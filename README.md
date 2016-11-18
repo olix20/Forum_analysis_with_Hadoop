@@ -1,7 +1,11 @@
 ## Analyzing Forum Usage using Hadoop MapReduce
 
+<img src="http://www.hadooptpoint.com/wp-content/uploads/2014/12/Hadoop-Mapreduce.jpg"/>
 
 In this project I experiment with some discussion forum data. It is a type of user generated content that you can find all around the web. Most popular websites have some kind of a forum, and the things I do here can be  transferred to other similar projects. 
+
+
+The forum data has a huge volume and keeps changing rapidly, with everyone posting questions, answers or comments. To answer questions on this dataset, MapReduce is a good choice to tackle the high Volume and Velocity of the data. 
 
 
 ### The Data Set
@@ -33,6 +37,18 @@ To make sure the code is running properly, we also have a smaller data set and s
 
 Instructions on setting up the VM are [here](https://www.udacity.com/wiki/ud617#!#setting-up-the-vm-datasets)
 If you're new to Hadoop you can get a headstart from [here](https://www.udacity.com/wiki/ud617)
+
+
+### Use Cases
+
+- Inner join of forum nodes and user data
+- Finding top N tags used in questions
+- Finding correlation between question length and average of answer lengths 
+- Most popular time of day to post on the forum, per user 
+- Identifying cliques of students who participate in a discussion thread
+
+
+
 
 ### Shell Commands
 
