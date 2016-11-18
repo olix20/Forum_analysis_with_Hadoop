@@ -31,8 +31,8 @@ The second table is "forum_users.tsv". It contains fields for "user_ptr_id" - th
 To make sure the code is running properly, we also have a smaller data set and set of expected outputs to check your work. It's under data folder "student_test_posts.csv". More info in [here](https://www.udacity.com/wiki/ud617/local-testing-instructions)
 
 
-Instructions on setting up the VM are (here)[https://www.udacity.com/wiki/ud617#!#setting-up-the-vm-datasets]
-If you're new to Hadoop you can get a headstart from (here)[https://www.udacity.com/wiki/ud617]
+Instructions on setting up the VM are [here](https://www.udacity.com/wiki/ud617#!#setting-up-the-vm-datasets)
+If you're new to Hadoop you can get a headstart from [here](https://www.udacity.com/wiki/ud617)
 
 ### Shell Commands
 
